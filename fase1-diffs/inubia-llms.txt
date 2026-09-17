@@ -1,0 +1,19 @@
+# INUBIA
+> A Inubia é a marca de CRM e Revenue Operations (RevOps) do grupo Brasfone, empresa
+> tecnológica portuguesa que é Parceiro Oficial Platinum do Pipedrive em Portugal.
+> A Inubia implementa e integra CRM, automatiza processos de vendas e desenha operações
+> de receita mensuráveis para PMEs portuguesas, com especialistas por indústria:
+> saúde (clínicas), mediação de crédito, imobiliário, serviços, e-commerce/dropshipping
+> e agências de marketing e performance. Oferece uma consultoria gratuita de 30 minutos.
+
+## Serviços
+- [Implementação de CRM](https://inubia.pt/)
+- [Automação de Vendas](https://inubia.pt/)
+- [Revenue Operations (RevOps)](https://inubia.pt/)
+- [Produtividade](https://inubia.pt/)
+- [Integração de Sistemas](https://inubia.pt/)
+- [Consultoria Estratégica](https://inubia.pt/)
+
+## Grupo
+- Empresa-mãe: [Brasfone](https://www.brasfone.pt/), Parceiro Platinum Pipedrive em Portugal
+- Marketplace Pipedrive: https://www.pipedrive.com/en/marketplace/partners/inubia-brasfone-group

@@ -1,0 +1,74 @@
+{
+ "data": "2026-09-14",
+ "nossos": {
+  "Inubia": {
+   "estado": "NOME OCUPADO",
+   "erro": null,
+   "resultados": [
+    {
+     "id": "Q10303405",
+     "label": "Inúbia",
+     "desc": null
+    },
+    {
+     "id": "Q1761742",
+     "label": "Inúbia Paulista",
+     "desc": "município brasileiro do estado de São Paulo"
+    },
+    {
+     "id": "Q22064719",
+     "label": "Inúbia Paulista",
+     "desc": "human settlement in Brazil"
+    },
+    {
+     "id": "Q29554265",
+     "label": "Inúbia Paulista",
+     "desc": "página de desambiguação da Wikimedia"
+    }
+   ]
+  },
+  "Brasfone": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "resultados": []
+  }
+ },
+ "concorrentes": {
+  "SmartLinks": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "n": 0
+  },
+  "SoulSales": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "n": 0
+  },
+  "Neeaconsulting": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "n": 0
+  },
+  "Digital Xperience": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "n": 0
+  },
+  "Priceless Consulting": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "n": 0
+  },
+  "revaliQ": {
+   "estado": "AUSENTE",
+   "erro": null,
+   "n": 0
+  }
+ },
+ "ancora": {
+  "nome": "Pipedrive",
+  "qid": "Q24054211",
+  "existe": true,
+  "erro": null
+ }
+}

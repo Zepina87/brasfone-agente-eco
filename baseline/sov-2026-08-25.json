@@ -1,0 +1,48 @@
+{
+  "data": "2026-08-25",
+  "versao_bateria": "1.0 (2026-08-25)",
+  "erros": 0,
+  "por_motor": {
+    "perplexity/sonar": {
+      "brasfone": 15.0,
+      "inubia": 10.0,
+      "smartlinks": 10.0,
+      "soulsales": 2.5,
+      "neea": 2.5,
+      "digital xperience": 0.0,
+      "priceless": 5.0,
+      "_n": 40
+    },
+    "openai/gpt-5-mini": {
+      "brasfone": 0.0,
+      "inubia": 0.0,
+      "smartlinks": 0.0,
+      "soulsales": 0.0,
+      "neea": 0.0,
+      "digital xperience": 0.0,
+      "priceless": 0.0,
+      "_n": 40
+    },
+    "google/gemini-3.7-flash": {
+      "brasfone": 0.0,
+      "inubia": 0.0,
+      "smartlinks": 2.5,
+      "soulsales": 0.0,
+      "neea": 0.0,
+      "digital xperience": 0.0,
+      "priceless": 0.0,
+      "_n": 40
+    }
+  },
+  "total": {
+    "brasfone": 5.0,
+    "inubia": 3.3,
+    "smartlinks": 4.2,
+    "soulsales": 0.8,
+    "neea": 0.8,
+    "digital xperience": 0.0,
+    "priceless": 1.7,
+    "_n": 120
+  },
+  "tokens_totais": 197590
+}

@@ -1,0 +1,96 @@
+{
+  "data": "2026-09-09-v1.1",
+  "versao_bateria": "1.1 (2026-09-09)",
+  "reprocessado_de": "raw-2026-09-09-v1.1.jsonl",
+  "erros": 0,
+  "por_motor": {
+    "perplexity/sonar": {
+      "brasfone": 30.0,
+      "inubia": 20.0,
+      "smartlinks": 22.5,
+      "soulsales": 5.0,
+      "neea": 12.5,
+      "digital xperience": 0.0,
+      "priceless": 12.5,
+      "revaliq": 0.0,
+      "_n": 40,
+      "_mencoes": 41,
+      "quota": {
+        "brasfone": 29.3,
+        "inubia": 19.5,
+        "smartlinks": 22.0,
+        "soulsales": 4.9,
+        "neea": 12.2,
+        "digital xperience": 0.0,
+        "priceless": 12.2,
+        "revaliq": 0.0
+      }
+    },
+    "openai/gpt-5-mini": {
+      "brasfone": 0.0,
+      "inubia": 0.0,
+      "smartlinks": 0.0,
+      "soulsales": 0.0,
+      "neea": 0.0,
+      "digital xperience": 0.0,
+      "priceless": 0.0,
+      "revaliq": 0.0,
+      "_n": 40,
+      "_mencoes": 0,
+      "quota": {
+        "brasfone": null,
+        "inubia": null,
+        "smartlinks": null,
+        "soulsales": null,
+        "neea": null,
+        "digital xperience": null,
+        "priceless": null,
+        "revaliq": null
+      }
+    },
+    "google/gemini-3.7-flash": {
+      "brasfone": 0.0,
+      "inubia": 0.0,
+      "smartlinks": 5.0,
+      "soulsales": 0.0,
+      "neea": 0.0,
+      "digital xperience": 0.0,
+      "priceless": 0.0,
+      "revaliq": 0.0,
+      "_n": 40,
+      "_mencoes": 2,
+      "quota": {
+        "brasfone": 0.0,
+        "inubia": 0.0,
+        "smartlinks": 100.0,
+        "soulsales": 0.0,
+        "neea": 0.0,
+        "digital xperience": 0.0,
+        "priceless": 0.0,
+        "revaliq": 0.0
+      }
+    }
+  },
+  "total": {
+    "brasfone": 10.0,
+    "inubia": 6.7,
+    "smartlinks": 9.2,
+    "soulsales": 1.7,
+    "neea": 4.2,
+    "digital xperience": 0.0,
+    "priceless": 4.2,
+    "revaliq": 0.0,
+    "_n": 120,
+    "_mencoes": 43,
+    "quota": {
+      "brasfone": 27.9,
+      "inubia": 18.6,
+      "smartlinks": 25.6,
+      "soulsales": 4.7,
+      "neea": 11.6,
+      "digital xperience": 0.0,
+      "priceless": 11.6,
+      "revaliq": 0.0
+    }
+  }
+}

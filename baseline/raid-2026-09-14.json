@@ -1,0 +1,450 @@
+[
+  {
+    "dominio": "inubia.pt",
+    "data": "2026-09-14",
+    "robots_status": 200,
+    "medicao": "medida",
+    "robots_grupos": [
+      "*"
+    ],
+    "bots": [
+      {
+        "bot": "OAI-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "ChatGPT Search",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da OpenAI"
+      },
+      {
+        "bot": "Claude-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa do Claude",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da Anthropic"
+      },
+      {
+        "bot": "PerplexityBot",
+        "capacidade": "citabilidade",
+        "governa": "Perplexity",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Googlebot",
+        "capacidade": "citabilidade",
+        "governa": "Google Search, AI Overviews e AI Mode",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Google-Extended"
+      },
+      {
+        "bot": "Bingbot",
+        "capacidade": "citabilidade",
+        "governa": "Bing e Copilot",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Applebot",
+        "capacidade": "citabilidade",
+        "governa": "Siri, Spotlight e Safari",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Applebot-Extended"
+      },
+      {
+        "bot": "GPTBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos OpenAI",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade no ChatGPT Search"
+      },
+      {
+        "bot": "ClaudeBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos Anthropic",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade na pesquisa do Claude"
+      },
+      {
+        "bot": "Google-Extended",
+        "capacidade": "treino",
+        "governa": "treino e grounding do Gemini e Vertex",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa AI Overviews nem Google Search"
+      },
+      {
+        "bot": "Applebot-Extended",
+        "capacidade": "treino",
+        "governa": "opt-out de treino da Apple Intelligence",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa Siri, Spotlight nem Safari"
+      },
+      {
+        "bot": "CCBot",
+        "capacidade": "treino",
+        "governa": "Common Crawl",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Bytespider",
+        "capacidade": "treino",
+        "governa": "ByteDance",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "cohere-ai",
+        "capacidade": "treino",
+        "governa": "Cohere",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      }
+    ],
+    "user_triggered": [
+      "ChatGPT-User",
+      "Claude-User",
+      "Google-Agent",
+      "Google-NotebookLM",
+      "Google Messages"
+    ],
+    "llms_txt": {
+      "status": 404,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "llms_full_txt": {
+      "status": 404,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "home_status": 200,
+    "home": {
+      "jsonld_tipos": [],
+      "meta_description": "",
+      "title": "Início - Inubia | Brasfone Grupo",
+      "h1": 1,
+      "h2": 6,
+      "palavras_visiveis": 1361,
+      "bytes_html": 67496,
+      "racio_texto_html": 0.1109,
+      "suspeita_csr": false
+    }
+  },
+  {
+    "dominio": "www.brasfone.pt",
+    "data": "2026-09-14",
+    "robots_status": 200,
+    "medicao": "medida",
+    "robots_grupos": [
+      "*",
+      "adsbot-google",
+      "adsbot-google-mobile",
+      "ahrefsbot",
+      "dotbot",
+      "petalbot"
+    ],
+    "bots": [
+      {
+        "bot": "OAI-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "ChatGPT Search",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da OpenAI"
+      },
+      {
+        "bot": "Claude-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa do Claude",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da Anthropic"
+      },
+      {
+        "bot": "PerplexityBot",
+        "capacidade": "citabilidade",
+        "governa": "Perplexity",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Googlebot",
+        "capacidade": "citabilidade",
+        "governa": "Google Search, AI Overviews e AI Mode",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Google-Extended"
+      },
+      {
+        "bot": "Bingbot",
+        "capacidade": "citabilidade",
+        "governa": "Bing e Copilot",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Applebot",
+        "capacidade": "citabilidade",
+        "governa": "Siri, Spotlight e Safari",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Applebot-Extended"
+      },
+      {
+        "bot": "GPTBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos OpenAI",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade no ChatGPT Search"
+      },
+      {
+        "bot": "ClaudeBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos Anthropic",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade na pesquisa do Claude"
+      },
+      {
+        "bot": "Google-Extended",
+        "capacidade": "treino",
+        "governa": "treino e grounding do Gemini e Vertex",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa AI Overviews nem Google Search"
+      },
+      {
+        "bot": "Applebot-Extended",
+        "capacidade": "treino",
+        "governa": "opt-out de treino da Apple Intelligence",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa Siri, Spotlight nem Safari"
+      },
+      {
+        "bot": "CCBot",
+        "capacidade": "treino",
+        "governa": "Common Crawl",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Bytespider",
+        "capacidade": "treino",
+        "governa": "ByteDance",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "cohere-ai",
+        "capacidade": "treino",
+        "governa": "Cohere",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      }
+    ],
+    "user_triggered": [
+      "ChatGPT-User",
+      "Claude-User",
+      "Google-Agent",
+      "Google-NotebookLM",
+      "Google Messages"
+    ],
+    "llms_txt": {
+      "status": 200,
+      "bytes": 3699,
+      "primeira_linha": "# BRASFONE"
+    },
+    "llms_full_txt": {
+      "status": 400,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "home_status": 200,
+    "home": {
+      "jsonld_tipos": [
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "meta_description": "Implementamos soluções tecnológicas que garantem que o seu negócio nunca pára, aconteça o que acontecer.\nKnow-how e confiança de 25 anos Brasfone, sempre ao seu lado.",
+      "title": "BRASFONE | Soluções tecnológicas | Portugal",
+      "h1": 1,
+      "h2": 4,
+      "palavras_visiveis": 751,
+      "bytes_html": 1761481,
+      "racio_texto_html": 0.0023,
+      "suspeita_csr": false
+    }
+  },
+  {
+    "dominio": "brasfone.pt",
+    "data": "2026-09-14",
+    "robots_status": 200,
+    "medicao": "medida",
+    "robots_grupos": [
+      "*",
+      "adsbot-google",
+      "adsbot-google-mobile",
+      "ahrefsbot",
+      "dotbot",
+      "petalbot"
+    ],
+    "bots": [
+      {
+        "bot": "OAI-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "ChatGPT Search",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da OpenAI"
+      },
+      {
+        "bot": "Claude-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa do Claude",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da Anthropic"
+      },
+      {
+        "bot": "PerplexityBot",
+        "capacidade": "citabilidade",
+        "governa": "Perplexity",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Googlebot",
+        "capacidade": "citabilidade",
+        "governa": "Google Search, AI Overviews e AI Mode",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Google-Extended"
+      },
+      {
+        "bot": "Bingbot",
+        "capacidade": "citabilidade",
+        "governa": "Bing e Copilot",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Applebot",
+        "capacidade": "citabilidade",
+        "governa": "Siri, Spotlight e Safari",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Applebot-Extended"
+      },
+      {
+        "bot": "GPTBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos OpenAI",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade no ChatGPT Search"
+      },
+      {
+        "bot": "ClaudeBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos Anthropic",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade na pesquisa do Claude"
+      },
+      {
+        "bot": "Google-Extended",
+        "capacidade": "treino",
+        "governa": "treino e grounding do Gemini e Vertex",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa AI Overviews nem Google Search"
+      },
+      {
+        "bot": "Applebot-Extended",
+        "capacidade": "treino",
+        "governa": "opt-out de treino da Apple Intelligence",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa Siri, Spotlight nem Safari"
+      },
+      {
+        "bot": "CCBot",
+        "capacidade": "treino",
+        "governa": "Common Crawl",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "Bytespider",
+        "capacidade": "treino",
+        "governa": "ByteDance",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      },
+      {
+        "bot": "cohere-ai",
+        "capacidade": "treino",
+        "governa": "Cohere",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": ""
+      }
+    ],
+    "user_triggered": [
+      "ChatGPT-User",
+      "Claude-User",
+      "Google-Agent",
+      "Google-NotebookLM",
+      "Google Messages"
+    ],
+    "llms_txt": {
+      "status": 200,
+      "bytes": 3699,
+      "primeira_linha": "# BRASFONE"
+    },
+    "llms_full_txt": {
+      "status": 400,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "home_status": 200,
+    "home": {
+      "jsonld_tipos": [
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "meta_description": "Implementamos soluções tecnológicas que garantem que o seu negócio nunca pára, aconteça o que acontecer.\nKnow-how e confiança de 25 anos Brasfone, sempre ao seu lado.",
+      "title": "BRASFONE | Soluções tecnológicas | Portugal",
+      "h1": 1,
+      "h2": 4,
+      "palavras_visiveis": 751,
+      "bytes_html": 1761481,
+      "racio_texto_html": 0.0023,
+      "suspeita_csr": false
+    }
+  }
+]

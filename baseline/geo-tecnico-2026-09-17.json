@@ -1,0 +1,414 @@
+[
+  {
+    "dominio": "inubia.pt",
+    "data": "2026-09-17",
+    "robots_status": 200,
+    "medicao": "medida",
+    "robots_grupos": [
+      "*"
+    ],
+    "bots": [
+      {
+        "bot": "OAI-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "ChatGPT Search",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da OpenAI",
+        "obedece": true
+      },
+      {
+        "bot": "Claude-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa do Claude",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da Anthropic",
+        "obedece": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "capacidade": "citabilidade",
+        "governa": "Perplexity",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "Googlebot",
+        "capacidade": "citabilidade",
+        "governa": "Google Search, AI Overviews e AI Mode",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Google-Extended",
+        "obedece": null
+      },
+      {
+        "bot": "Bingbot",
+        "capacidade": "citabilidade",
+        "governa": "Bing e Copilot",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": null
+      },
+      {
+        "bot": "Applebot",
+        "capacidade": "citabilidade",
+        "governa": "Siri, Spotlight e Safari",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Applebot-Extended",
+        "obedece": true
+      },
+      {
+        "bot": "MistralAI-Index",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa da Mistral",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "Amazonbot",
+        "capacidade": "citabilidade",
+        "governa": "respostas da Alexa",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "GPTBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos OpenAI",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade no ChatGPT Search",
+        "obedece": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos Anthropic",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade na pesquisa do Claude",
+        "obedece": true
+      },
+      {
+        "bot": "Google-Extended",
+        "capacidade": "treino",
+        "governa": "treino e grounding do Gemini e Vertex",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa AI Overviews nem Google Search",
+        "obedece": true
+      },
+      {
+        "bot": "Applebot-Extended",
+        "capacidade": "treino",
+        "governa": "opt-out de treino da Apple Intelligence",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa Siri, Spotlight nem Safari",
+        "obedece": true
+      },
+      {
+        "bot": "CCBot",
+        "capacidade": "treino",
+        "governa": "Common Crawl",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "Bytespider",
+        "capacidade": "treino",
+        "governa": "ByteDance",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO obedece ao robots.txt: permitir/bloquear aqui nao o trava",
+        "obedece": false
+      },
+      {
+        "bot": "cohere-ai",
+        "capacidade": "treino",
+        "governa": "Cohere",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "obediencia ao robots.txt POR ESCLARECER, nao assumir",
+        "obedece": null
+      }
+    ],
+    "bots_novos": [
+      "AmazonBuyForMe",
+      "Amzn-User",
+      "ChatGPT Agent",
+      "Claude-Web",
+      "FacebookBot",
+      "Google-CloudVertexBot",
+      "Google-Firebase",
+      "GoogleAgent-Mariner",
+      "GoogleAgent-URLContext",
+      "GoogleOther",
+      "GoogleOther-Image",
+      "GoogleOther-Video",
+      "MistralAI-Training",
+      "MistralAI-User",
+      "MistralAI-User/1.0",
+      "OAI-AdsBot",
+      "OpenAI",
+      "amazon-kendra",
+      "anthropic-ai",
+      "bedrockbot",
+      "facebookexternalhit",
+      "meta-externalagent",
+      "meta-webindexer"
+    ],
+    "canon_total": 175,
+    "user_triggered": [
+      "ChatGPT-User",
+      "Claude-User",
+      "Perplexity-User",
+      "Google-Agent",
+      "Google-NotebookLM",
+      "Google Messages"
+    ],
+    "llms_txt": {
+      "status": 404,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "llms_full_txt": {
+      "status": 404,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "home_status": 200,
+    "home": {
+      "jsonld_tipos": [],
+      "meta_description": "",
+      "title": "Início - Inubia | Brasfone Grupo",
+      "h1": 1,
+      "h2": 6,
+      "palavras_visiveis": 1361,
+      "bytes_html": 67496,
+      "racio_texto_html": 0.1109,
+      "suspeita_csr": false
+    }
+  },
+  {
+    "dominio": "www.brasfone.pt",
+    "data": "2026-09-17",
+    "robots_status": 200,
+    "medicao": "medida",
+    "robots_grupos": [
+      "*",
+      "adsbot-google",
+      "adsbot-google-mobile",
+      "ahrefsbot",
+      "dotbot",
+      "petalbot"
+    ],
+    "bots": [
+      {
+        "bot": "OAI-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "ChatGPT Search",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da OpenAI",
+        "obedece": true
+      },
+      {
+        "bot": "Claude-SearchBot",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa do Claude",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao prova nada sobre treino da Anthropic",
+        "obedece": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "capacidade": "citabilidade",
+        "governa": "Perplexity",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "Googlebot",
+        "capacidade": "citabilidade",
+        "governa": "Google Search, AI Overviews e AI Mode",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Google-Extended",
+        "obedece": null
+      },
+      {
+        "bot": "Bingbot",
+        "capacidade": "citabilidade",
+        "governa": "Bing e Copilot",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": null
+      },
+      {
+        "bot": "Applebot",
+        "capacidade": "citabilidade",
+        "governa": "Siri, Spotlight e Safari",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "nao confundir com Applebot-Extended",
+        "obedece": true
+      },
+      {
+        "bot": "MistralAI-Index",
+        "capacidade": "citabilidade",
+        "governa": "pesquisa da Mistral",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "Amazonbot",
+        "capacidade": "citabilidade",
+        "governa": "respostas da Alexa",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "GPTBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos OpenAI",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade no ChatGPT Search",
+        "obedece": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "capacidade": "treino",
+        "governa": "treino de modelos Anthropic",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa citabilidade na pesquisa do Claude",
+        "obedece": true
+      },
+      {
+        "bot": "Google-Extended",
+        "capacidade": "treino",
+        "governa": "treino e grounding do Gemini e Vertex",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa AI Overviews nem Google Search",
+        "obedece": true
+      },
+      {
+        "bot": "Applebot-Extended",
+        "capacidade": "treino",
+        "governa": "opt-out de treino da Apple Intelligence",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO governa Siri, Spotlight nem Safari",
+        "obedece": true
+      },
+      {
+        "bot": "CCBot",
+        "capacidade": "treino",
+        "governa": "Common Crawl",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "",
+        "obedece": true
+      },
+      {
+        "bot": "Bytespider",
+        "capacidade": "treino",
+        "governa": "ByteDance",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "NAO obedece ao robots.txt: permitir/bloquear aqui nao o trava",
+        "obedece": false
+      },
+      {
+        "bot": "cohere-ai",
+        "capacidade": "treino",
+        "governa": "Cohere",
+        "estado": "PERMITIDO",
+        "grupo_aplicado": "*",
+        "aviso": "obediencia ao robots.txt POR ESCLARECER, nao assumir",
+        "obedece": null
+      }
+    ],
+    "bots_novos": [
+      "AmazonBuyForMe",
+      "Amzn-User",
+      "ChatGPT Agent",
+      "Claude-Web",
+      "FacebookBot",
+      "Google-CloudVertexBot",
+      "Google-Firebase",
+      "GoogleAgent-Mariner",
+      "GoogleAgent-URLContext",
+      "GoogleOther",
+      "GoogleOther-Image",
+      "GoogleOther-Video",
+      "MistralAI-Training",
+      "MistralAI-User",
+      "MistralAI-User/1.0",
+      "OAI-AdsBot",
+      "OpenAI",
+      "amazon-kendra",
+      "anthropic-ai",
+      "bedrockbot",
+      "facebookexternalhit",
+      "meta-externalagent",
+      "meta-webindexer"
+    ],
+    "canon_total": 175,
+    "user_triggered": [
+      "ChatGPT-User",
+      "Claude-User",
+      "Perplexity-User",
+      "Google-Agent",
+      "Google-NotebookLM",
+      "Google Messages"
+    ],
+    "llms_txt": {
+      "status": 200,
+      "bytes": 3699,
+      "primeira_linha": "# BRASFONE"
+    },
+    "llms_full_txt": {
+      "status": 400,
+      "bytes": 0,
+      "primeira_linha": ""
+    },
+    "home_status": 200,
+    "home": {
+      "jsonld_tipos": [
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "meta_description": "Implementamos soluções tecnológicas que garantem que o seu negócio nunca pára, aconteça o que acontecer.\nKnow-how e confiança de 25 anos Brasfone, sempre ao seu lado.",
+      "title": "BRASFONE | Soluções tecnológicas | Portugal",
+      "h1": 1,
+      "h2": 4,
+      "palavras_visiveis": 751,
+      "bytes_html": 1761778,
+      "racio_texto_html": 0.0023,
+      "suspeita_csr": false
+    }
+  }
+]

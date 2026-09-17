@@ -1,0 +1,56 @@
+<!-- JSON-LD para o <head> de inubia.pt (hoje: ZERO structured data).
+     Colocar via plugin de SEO (Rank Math / Yoast custom schema) ou no tema. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://inubia.pt/#organization",
+  "name": "Inubia",
+  "url": "https://inubia.pt/",
+  "description": "Marca de CRM e Revenue Operations (RevOps) do grupo Brasfone. Implementação de CRM Pipedrive, automação de vendas e integração de sistemas para PMEs em Portugal.",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Brasfone",
+    "url": "https://www.brasfone.pt/",
+    "address": {"@type": "PostalAddress", "addressCountry": "PT", "addressLocality": "Faro", "postalCode": "8005-528"},
+    "telephone": "+351912899191"
+  },
+  "areaServed": {"@type": "Country", "name": "Portugal"},
+  "knowsAbout": ["Pipedrive", "CRM", "Revenue Operations", "Automação de vendas", "Integração de sistemas"],
+  "logo": "https://inubia.pt/wp/wp-content/uploads/2026/05/inubia-logo.png",
+  "sameAs": [
+    "https://www.pipedrive.com/en/marketplace/partners/inubia-brasfone-group",
+    "https://www.linkedin.com/company/inubia-pt",
+    "https://www.brasfone.pt/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Implementação e consultoria de CRM Pipedrive",
+  "provider": {"@id": "https://inubia.pt/#organization"},
+  "areaServed": {"@type": "Country", "name": "Portugal"},
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços Inubia",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Implementação de CRM"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Automação de Vendas"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Revenue Operations (RevOps)"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Integração de Sistemas"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Consultoria Estratégica"}}
+    ]
+  }
+}
+</script>
+<!-- Placeholders preenchidos 2026-09-15, medidos no HTML da homepage: logo em
+     /wp/wp-content/uploads/2026/05/inubia-logo.png; a Inubia TEM página LinkedIn própria
+     (/company/inubia-pt); o slug do marketplace Pipedrive é inubia-brasfone-group e responde 200
+     (o slug "brasfone" da versão de 25-08 dá 404: a tarefa ClickUp "P0 em 404" estava a apontar
+     para o slug antigo, não para um perfil morto).
+     FAQPage: a nota de 25-08 dizia que o FAQ carregava por JS e era invisível. Medido a 15-09:
+     os 8 pares pergunta/resposta ESTÃO no HTML servido (classes inh-faq-q / inh-faq-a). O schema
+     FAQPage pode avançar, e gera-se com scripts/gera_jsonld.py faq <ficheiro.json> a partir
+     das perguntas VISÍVEIS, nunca de perguntas que lá não estão. -->

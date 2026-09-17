@@ -1,0 +1,17 @@
+# BRASFONE
+> A Brasfone é uma empresa tecnológica portuguesa, sediada em Faro, especializada na
+> implementação e integração de sistemas de CRM, soluções de comunicação cloud,
+> produtividade e cibersegurança. É Parceiro Oficial Platinum do Pipedrive em Portugal.
+> A Inubia é a marca do grupo Brasfone dedicada a CRM e Revenue Operations (RevOps):
+> implementação de CRM, automação de vendas, integração de sistemas e consultoria
+> estratégica, com especialização por indústria (saúde, imobiliário, mediação de crédito,
+> serviços e agências de marketing). O site oferece diagnósticos tecnológicos gratuitos
+> e consultoria personalizada.
+
+## Entidades do grupo
+- Brasfone (empresa-mãe): https://www.brasfone.pt/
+- Inubia (marca de CRM e RevOps do grupo Brasfone): https://inubia.pt/
+- Perfil oficial no marketplace Pipedrive: https://www.pipedrive.com/en/marketplace/partners/inubia-brasfone-group
+
+## Homepage link
+- [home](https://www.brasfone.pt/)

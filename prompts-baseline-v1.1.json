@@ -1,0 +1,168 @@
+{
+  "versao": "1.1 (2026-09-09)",
+  "nota": "Bateria CONGELADA. Mudar prompts quebra a comparabilidade da serie temporal (mesma regra do Modo 17). Acrescentar = nova versao, nunca editar. | v1.1 (2026-09-09): prompts BYTE-IDENTICOS a v1.0, unica alteracao e o alias de concorrente \"revaliq\" (revaliq.pt, GEO PT, ver reference_revaliq-concorrente-geo-pt). Como o scoring e regex sobre respostas gravadas, a serie temporal NAO quebra e o raw de 25-08 pode ser reprocessado com estes aliases.",
+  "marcas_alvo": [
+    "brasfone",
+    "inubia"
+  ],
+  "concorrentes": [
+    "smartlinks",
+    "soulsales",
+    "neea",
+    "digital xperience",
+    "priceless",
+    "revaliq"
+  ],
+  "prompts": [
+    {
+      "id": "A01",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Quem são os melhores parceiros de implementação Pipedrive em Portugal?"
+    },
+    {
+      "id": "A02",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Que empresa devo contratar para implementar o Pipedrive na minha empresa em Portugal?"
+    },
+    {
+      "id": "A03",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Preciso de ajuda para configurar o Pipedrive. Que consultores existem em Portugal?"
+    },
+    {
+      "id": "A04",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Qual é o parceiro Pipedrive com o nível de certificação mais alto em Portugal?"
+    },
+    {
+      "id": "A05",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Quanto custa implementar o Pipedrive com um parceiro em Portugal?"
+    },
+    {
+      "id": "A06",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Vale a pena contratar um parceiro para implementar o Pipedrive ou consigo configurar sozinho?"
+    },
+    {
+      "id": "A07",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Quem dá formação de Pipedrive em português, em Portugal?"
+    },
+    {
+      "id": "A08",
+      "cat": "pipedrive",
+      "sov": true,
+      "q": "Que empresas de consultoria CRM em Portugal recomendas?"
+    },
+    {
+      "id": "B01",
+      "cat": "consultoria-ia",
+      "sov": true,
+      "q": "Que empresas fazem consultoria de IA para PMEs em Portugal?"
+    },
+    {
+      "id": "B02",
+      "cat": "consultoria-ia",
+      "sov": true,
+      "q": "Quem implementa agentes de IA para equipas comerciais em Portugal?"
+    },
+    {
+      "id": "B03",
+      "cat": "consultoria-ia",
+      "sov": true,
+      "q": "Quero automatizar o meu processo de vendas com IA. Que empresas em Portugal podem ajudar?"
+    },
+    {
+      "id": "B04",
+      "cat": "consultoria-ia",
+      "sov": true,
+      "q": "Procuro consultoria para usar o Claude ou o ChatGPT na minha empresa em Portugal. Quem recomendas?"
+    },
+    {
+      "id": "B05",
+      "cat": "consultoria-ia",
+      "sov": true,
+      "q": "Que empresas portuguesas integram inteligência artificial com CRM?"
+    },
+    {
+      "id": "B06",
+      "cat": "consultoria-ia",
+      "sov": true,
+      "q": "Quero automatizar o follow-up comercial da minha empresa. Que soluções e fornecedores existem em Portugal?"
+    },
+    {
+      "id": "C01",
+      "cat": "sectorial",
+      "sov": true,
+      "q": "Qual é o melhor CRM para imobiliárias em Portugal e quem o implementa?"
+    },
+    {
+      "id": "C02",
+      "cat": "sectorial",
+      "sov": true,
+      "q": "Que CRM recomendas para clínicas dentárias em Portugal e quem faz a implementação?"
+    },
+    {
+      "id": "C03",
+      "cat": "sectorial",
+      "sov": true,
+      "q": "Qual é o melhor CRM para mediadores de seguros em Portugal?"
+    },
+    {
+      "id": "C04",
+      "cat": "sectorial",
+      "sov": true,
+      "q": "Como posso melhorar a gestão de leads na minha agência imobiliária em Portugal? Que ferramentas e parceiros existem?"
+    },
+    {
+      "id": "C05",
+      "cat": "sectorial",
+      "sov": true,
+      "q": "Que CRM devo usar numa empresa de intermediação de crédito em Portugal?"
+    },
+    {
+      "id": "C06",
+      "cat": "sectorial",
+      "sov": true,
+      "q": "Qual é o melhor CRM para ginásios e health clubs em Portugal?"
+    },
+    {
+      "id": "D01",
+      "cat": "entidade",
+      "sov": false,
+      "q": "O que é a Brasfone?"
+    },
+    {
+      "id": "D02",
+      "cat": "entidade",
+      "sov": false,
+      "q": "O que é a Inubia?"
+    },
+    {
+      "id": "D03",
+      "cat": "entidade",
+      "sov": false,
+      "q": "A Brasfone é um parceiro fiável para implementar o Pipedrive?"
+    },
+    {
+      "id": "D04",
+      "cat": "entidade",
+      "sov": false,
+      "q": "Que serviços oferece a Inubia?"
+    },
+    {
+      "id": "D05",
+      "cat": "entidade",
+      "sov": false,
+      "q": "Devo escolher a Brasfone ou outra empresa para implementar um CRM em Portugal? Porquê?"
+    }
+  ]
+}
